@@ -10,7 +10,7 @@ app.use(cors());
 app.use("/laptops", router);
 
 mongoose.connect(
-    "mongodb+srv://admin:Test123@cluster0.duj84l0.mongodb.net/laptopStore?retryWrites=true&w=majority"
+    "mongodb+srv://..."
 )
     .then(() => console.log("Terhubung ke Database"))
     .then(() => {
